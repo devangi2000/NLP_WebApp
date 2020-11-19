@@ -1,6 +1,6 @@
 import streamlit as st
 import nltk
-
+import en_core_web_sm
 nltk.download('punkt')
 #NLP
 import spacy
