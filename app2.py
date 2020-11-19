@@ -4,8 +4,8 @@ import nltk
 nltk.download('punkt')
 #NLP
 import spacy
-nlp = spacy.load('en')
-#nlp = spacy.load('en_core_web_sm')
+#nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 from spacy import displacy
 HTML_WRAPPER = """<div style="overflow-x: auto; border:1px solid #e6e9ef; border-radius: 0.95rem; padding:1 rem">{}</div>"""
 
